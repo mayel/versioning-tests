@@ -1,1 +1,12 @@
 *.pdf diff=pdf
+*.pptx diff=zip
+*.odt diff=odt
+*.xml diff=xml
+*.json diff=json
+*.doc diff=doc
+*.rtf diff=doc
+*.xls diff=xls
+*.ppt diff=ppt
+*.docx diff=docx
+*.jpg diff=exif
+*.jpeg diff=exif
