@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="31" moduleid="783" modulename="lesson" contextid="1472">
+  <lesson id="31">
+    <course>145</course>
+    <name>Can you make a revolution?</name>
+    <intro/>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>1</modattempts>
+    <usepassword>0</usepassword>
+    <password/>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>10</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>4</maxanswers>
+    <maxattempts>10</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile/>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1555155808</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+      <page id="205">
+        <prevpageid>0</prevpageid>
+        <nextpageid>206</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1371394924</timecreated>
+        <timemodified>0</timemodified>
+        <title>Setting the Scene...</title>
+        <contents>&lt;p&gt;Take yourself forward in time and sideways into a parallel universe....&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/ezalonia.jpg" width="322" height="242" alt="Public domain edited photo " /&gt;&lt;/p&gt;
+&lt;p class="western"&gt;It is 23&lt;sup&gt;rd&lt;/sup&gt; January 2211 You are a revolutionary and political dissident in  the Kingdom of Ezalonia. You run a famous blog that is critical of the ruling Mordak regime.  &lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="390">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371394924</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>OK - take me there!</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="206">
+        <prevpageid>205</prevpageid>
+        <nextpageid>207</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1371395065</timecreated>
+        <timemodified>1555155750</timemodified>
+        <title>Stage 1</title>
+        <contents>&lt;p class="western"&gt;You have been tortured and imprisoned by the regime and since the overthrow of Zolam the Great in  neighbouring Torestina, your family have been threatened by men from the army. And yet, all of your friends, many of whom have never been political are now going out on to the streets to protest. Food supplies are decreasing ,and so many of your friends are protesting about lack of bread.&lt;/p&gt;
+&lt;p class="western"&gt;&lt;img src="@@PLUGINFILE@@/breadprotests.jpg" width="230" height="171" alt="bread protests -public domain" /&gt;&lt;/p&gt;
+&lt;p class="western"&gt;You have a choice. Do you....&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="391">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371395065</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text> Go and join your friends immediately, even though you could face arrest and imprisonment if the army find out you are a well known dissident. There are still not many people on the streets and you don’t know what will happen.</answer_text>
+            <response>&lt;p&gt;Because you went out on to the streets on the 23 January, rather than waiting two days later till the 25 – the infamous “Day of Revolt” - you were immediately arrested as a well known opposer of the Mordak regime. You are not killed, but you cannot take part in the revolution because you are imprisoned until the overthrow of Mordak completely three weeks later. In that time you are tortured and your blog is shut down.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://upload.wikimedia.org/wikipedia/commons/7/7c/Torture_Inquisition.jpg" width="250" height="184" alt="Torture"&gt;&lt;/p&gt;</response>
+            <answerformat>0</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="392">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>2</score>
+            <flags>0</flags>
+            <timecreated>1371395065</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>&lt;p&gt;Decide to wait several days before going to join the protests. You want to wait to see if more people join in or if the protests for bread are brutally repressed.&lt;/p&gt;</answer_text>
+            <response>&lt;p&gt;Well done. You joined the protests on the 25 January with tens of thousands of other Ezalonians in the capital city of Colloq. The number of people involved meant the police would not arrest you straight away. You blogged and tweeted about the rising protests and gained 100,000 followers from news agencies and across the middle east overnight.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;You can progress to stage 2.&lt;/p&gt;</response>
+            <answerformat>1</answerformat>
+            <responseformat>1</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="207">
+        <prevpageid>206</prevpageid>
+        <nextpageid>208</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1371395249</timecreated>
+        <timemodified>0</timemodified>
+        <title>Stage 2</title>
+        <contents>&lt;p class="western"&gt;It is the 27 January. The police are now starting to seize activists, not just in Colloq, but also in the major cities of Soreen and Amadine. Your family are all protesting in the main Square with you, but your partner is increasingly worried for your safety, especially as foreign journalists are now trying to get in touch with you because of your presence on social media. &lt;/p&gt;
+&lt;p class="western"&gt;&lt;img src="@@PLUGINFILE@@/socialnewtworking.png" width="250" height="250" alt="social networking public domain" /&gt;&lt;/p&gt;
+&lt;p class="western"&gt;&lt;/p&gt;
+&lt;p class="western"&gt;Do you...&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="393">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371395249</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Go home until it becomes clear if the army are moving in to repress the growing tents in the main Square. </answer_text>
+            <response>By leaving in the main Square you were caught by pro-Mordak thugs on your way home who recognised you because you had given interviews to western media outlets. This time you didn’t even make it to prison. You were one of hundreds murdered in the backstreets of Colloq by pro-regime gangs. </response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="394">
+            <jumpto>208</jumpto>
+            <grade>0</grade>
+            <score>2</score>
+            <flags>0</flags>
+            <timecreated>1371395249</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>stay in the main Square with your partner and family. Participate in the workshops and community activities that had been set up there to try to avoid being singled out as anyone well-known.</answer_text>
+            <response>Well done. By staying in the main Square and embedding yourself in the emerging democratic organisations and community planning groups you contributed towards entrenching the revolution and stayed safe. You can progress to stage 3.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="208">
+        <prevpageid>207</prevpageid>
+        <nextpageid>209</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1371395590</timecreated>
+        <timemodified>0</timemodified>
+        <title>Stage 3</title>
+        <contents>&lt;p class="western"&gt;It is the 28 January – the special prayer day for day the Goblet Worshippers. You are not religious but you know that the vast majority of Colloq's poor and working people follow the Gobleteers. There are some revolutionaries who want nothing to do with the Goblet Worshipper movement because they fear that it could lead to repression after a revolution. There are others who think that if you don’t ally with the poorest people then the revolution will never succeed. What do you do?&lt;/p&gt;
+&lt;p class="western"&gt;&lt;img src="@@PLUGINFILE@@/goblet.png" width="265" height="235" alt="goblet public domain" /&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="395">
+            <jumpto>210</jumpto>
+            <grade>0</grade>
+            <score>2</score>
+            <flags>0</flags>
+            <timecreated>1371395590</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>You go to the temples to leaflet and speak to people after Goblet prayers to encourage them to come to the main Square to take part in the revolution.</answer_text>
+            <response>Well done. Gobleteers make up 89.7 percent of the population of Ezalonia.  Without harnessing the discontent of ordinary Gobleteers  at Mordrak's draconian policies, the revolution will never be able to succeed. By speaking to young Goblet worshippers, you also help to drive a wedge between the conservative policies of their leaders and the more democratic aims of their followers. You also help to build solidarity between Goblet and Chalice worshippers, paving the way for the multi-faith mass that occurred in Colloq on 6 February. You can progress to stage 4.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="396">
+            <jumpto>209</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371395590</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>You refuse to go to the temples and instead try to ally with the  rival Chalice Worshippers and encourage them to come to the Square.</answer_text>
+            <response>The revolution fails. The Chalice Worshippers only make up around 10 percent of the population of Ezalonia. By allying with them you fail to draw in the majority of the population and you further entrench a sectarian divide between Goblet and and Chalice worshippers, rather than attempting to bridge the gap and build solidarity.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="209">
+        <prevpageid>208</prevpageid>
+        <nextpageid>210</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1371395676</timecreated>
+        <timemodified>0</timemodified>
+        <title>Too bad</title>
+        <contents>&lt;p&gt;Sadly, you didn't manage to make a revolution and although you haven't been killed, life in Ezalonia isn't going to improve much. Perhaps you should start planning your escape?&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/toobad.png" width="270" height="212" alt="too bad - public domain" /&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="397">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371395676</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Ok. Thanks for the advice. I guess that's it then.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="210">
+        <prevpageid>209</prevpageid>
+        <nextpageid>211</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1371396047</timecreated>
+        <timemodified>0</timemodified>
+        <title>Stage 4</title>
+        <contents>&lt;p class="western"&gt;It is 9 February. The movement in the Main Square is not going away, but it lacks momentum that could bring down the Mordrak regime. Some people are starting to argue for terrorist strategies and targeting officials. Others are arguing to spread the movement into strike action.&lt;/p&gt;
+&lt;p class="western"&gt;&lt;img src="@@PLUGINFILE@@/protest.png" width="314" height="168" alt="protest public domain" /&gt;&lt;/p&gt;
+&lt;p class="western"&gt;Do you&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="398">
+            <jumpto>209</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371396047</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Agree with those arguing for a ratcheting up of terrorist style tactics. Begin to find the materials needed for bombs and find a list of high officials to target.</answer_text>
+            <response>This was a terrible mistake. The use of terrorist style tactics divided the opposition movement in the Main Square and thousands of people returned to their homes out of fear. Rather than scaring the regime, it gave them the upper hand and the army moved in to repress those who were left.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="399">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>2</score>
+            <flags>0</flags>
+            <timecreated>1371396047</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Agree with those arguing for strike action. You travel to the textile factories of  Melli-ad-Sucre where there were huge strikes in 2208 that shook the regime. When you get there you agitate with workers to encourage them to strike.</answer_text>
+            <response>Well done! The Melli-ad-Sucre textile factory is the largest factory in the whole of the region. The workers have a long and militant history and their strike action becomes the straw that breaks the camel's back. Their industrial pressure adds an economic crisis to the political crisis that Mordrak is already facing. </response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="211">
+        <prevpageid>210</prevpageid>
+        <nextpageid>212</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1371396265</timecreated>
+        <timemodified>0</timemodified>
+        <title>Stage 5</title>
+        <contents>&lt;p class="western"&gt;It is 10 February. You have been in the Main Square for three weeks. Mordrak is due to appear on state television and to offer concessions by bringing forward the election.&lt;/p&gt;
+&lt;p class="western"&gt;&lt;img src="@@PLUGINFILE@@/televisioin.png" width="314" height="222" alt="television public domain" /&gt;&lt;/p&gt;
+&lt;p class="western"&gt;&lt;/p&gt;
+&lt;p class="western"&gt;Do you...&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="400">
+            <jumpto>209</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1371396265</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Accept the concessions. You will get an early election and everyone can go home. Mordrak  has promised there will be no more repression. </answer_text>
+            <response>The revolution fails. Mordrak may have promised no repression, but in order to secure victory for his party in the September elections he now embarks on a political purge of the army and civil service. If you had waited out only one more day the army and growing strike movement would have forced Mordrak to resign – as he does on the 11 February 2211</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="401">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>2</score>
+            <flags>0</flags>
+            <timecreated>1371396265</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Refuse to accept the concessions and hold out for Mordrak to resign completely and hand over power to someone else to organise the elections.</answer_text>
+            <response>Well done! The revolution has succeeded. By staying in the Main Square one more day and refusing to accept Mordrak's concessions the pressure by the army and the growing strike movement means Mordrak is forced to step down. His thirty year dictatorship has come to end. There are many challenges ahead and the process for genuine democracy in Ezalonia is far from over. But you have survived and taken part in one of the defining events of the 22nd century.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="212">
+        <prevpageid>211</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1371396371</timecreated>
+        <timemodified>0</timemodified>
+        <title>A brighter future</title>
+        <contents>&lt;p&gt;You've managed to help make a brigher future for the people of Ezalonia!&lt;/p&gt;
+&lt;p&gt;How fortunate then that it is a land of rich, moist soil and warm sun perfect for vineyards.&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/grapes.jpg" width="256" height="341" alt="grapes public domain" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Take a few moments now with your friends to enjoy a celebratory glass of wine!&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="402">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1371396371</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Thanks! I think I will!</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

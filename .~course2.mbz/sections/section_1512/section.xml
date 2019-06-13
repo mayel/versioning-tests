@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="1512">
+  <number>0</number>
+  <name>Welcome!</name>
+  <summary>&lt;p&gt;In this course you'll find examples of how the Lesson module may  be used. Please take the time to go through each one - it doesn't matter how you score! You might learn something - or you might die a gruesome death - but either way, you will hopefully gain an understanding of the workings of a Moodle Lesson.&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>840,841</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>0</timemodified>
+</section>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="1515">
+  <number>2</number>
+  <name>Choose your own adventure!</name>
+  <summary>&lt;p&gt;The Lesson activity can work very well in encouraging creative thinking in interactive fiction exercises - not just for your students but for you who make up the stories!&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Muralles%20medievals.JPG" width="200" height="133" style="float: left; margin: 3px;"&gt;A variation on the Decision Making Exercise, this fantasy role play will have you deeply contemplating the results of your actions for the betterment of the Whole World...&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>783</sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <timemodified>1554466737</timemodified>
+</section>

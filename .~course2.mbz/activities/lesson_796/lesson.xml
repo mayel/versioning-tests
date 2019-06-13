@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="35" moduleid="796" modulename="lesson" contextid="1486">
+  <lesson id="35">
+    <course>145</course>
+    <name> Dyslexics of the World Untie</name>
+    <intro/>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password/>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>10</maxanswers>
+    <maxattempts>3</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>0</maxpages>
+    <timelimit>0</timelimit>
+    <retake>1</retake>
+    <activitylink>0</activitylink>
+    <mediafile/>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1555156221</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>1</allowofflineattempts>
+    <pages>
+      <page id="230">
+        <prevpageid>0</prevpageid>
+        <nextpageid>231</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410098740</timecreated>
+        <timemodified>1555155976</timemodified>
+        <title>What exactly IS dyslexia?</title>
+        <contents>&lt;p&gt;It's a&amp;nbsp;&lt;span&gt;&amp;nbsp;common type of learning difficulty that primarily affects the skills involved in the reading and spelling of words. Typically dyslexics will see letters jumbled up or floating around as they try to read, and when they spell words they might swap letters around, with occasional comic effects - hence the dyslexic jokes I've used to introduce this topic.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If you prefer to read information, the UK National Health Service has a &lt;a href="http://www.nhs.uk/conditions/Dyslexia/Pages/Introduction.aspx" target="_blank"&gt;good summary of dyslexia here&lt;/a&gt;&amp;nbsp;(opens in new window/tab)&lt;/p&gt;
+&lt;p&gt;Or if watching videos is your thing, here's a detailed video (45 minutes)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://youtu.be/GPhV9SyVmwA"&gt;http://youtu.be/GPhV9SyVmwA&lt;/a&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="437">
+            <jumpto>231</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410098740</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>OK - test me !</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="231">
+        <prevpageid>230</prevpageid>
+        <nextpageid>233</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410099032</timecreated>
+        <timemodified>1412273657</timemodified>
+        <title>Text or Video?</title>
+        <contents>&lt;p&gt;You can choose to answer questions based on the text or video - or both!&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/johnny_automatic_cat_reading.png" width="520" height="300" alt="text or video" /&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="438">
+            <jumpto>234</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099032</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Questions based on the text I read please</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="439">
+            <jumpto>237</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099032</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Questions based on the video I watched  please</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="233">
+        <prevpageid>231</prevpageid>
+        <nextpageid>234</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1410099499</timecreated>
+        <timemodified>1410101332</timemodified>
+        <title>Text 2</title>
+        <contents>&lt;p&gt;Dyslexics tend to be of higher intelligence than non-dyslexics. True or false?&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="443">
+            <jumpto>236</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410099499</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>False</answer_text>
+            <response>Correct. Although Einstein, Edison, Bill Gates and Steve Jobbs are all famous dyslexics, it is not not linked to a person's general level of intelligence. People of  all intellectual abilities, from low to high intelligence, can be affected by dyslexia.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="444">
+            <jumpto>236</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099499</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>True</answer_text>
+            <response>No - although Einstein, Edison, Bill Gates and Steve Jobbs are all famous dyslexics, it is not not linked to a person's general level of intelligence. People of all intellectual abilities, from low to high intelligence, can be affected by dyslexia.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="238">
+        <prevpageid>232</prevpageid>
+        <nextpageid>239</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410101744</timecreated>
+        <timemodified>0</timemodified>
+        <title>Standing in the dyslexic's shoes</title>
+        <contents>&lt;p&gt;This seven minute cartoon shows what it's like from the point of view of a dyslexic school child during a day at school. As you watch it,  note down some of the areas in which Tom struggles. (You'll need them for later)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=IEpBujdee8M"&gt;https://www.youtube.com/watch?v=IEpBujdee8M&lt;/a&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="453">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410101744</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>OK - Test me!</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="234">
+        <prevpageid>233</prevpageid>
+        <nextpageid>236</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1410099273</timecreated>
+        <timemodified>1410100331</timemodified>
+        <title>Text 1</title>
+        <contents>&lt;p&gt;&lt;strong&gt;Phonological awareness&lt;/strong&gt; is...&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="440">
+            <jumpto>233</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099273</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>the ability to remember a sequence of verbal information for a short period of time.</answer_text>
+            <response>No - the clue in there is "remember" - that must be something to do with memory, not awareness.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="441">
+            <jumpto>233</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099273</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>the ability to name a series of colours, objects or numbers as fast as possible.</answer_text>
+            <response>No - the clue is in the word series - that's not related to awareness</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="442">
+            <jumpto>233</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410099273</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>the ability to identify how words are made up of smaller units of sound, known as phonemes. </answer_text>
+            <response>Yes - well done. (Quote from NHS website) Phonological awareness is thought to be a key skill in early reading and spelling development. It is the ability to identify how words are made up of smaller units of sound, known as phonemes. Changes in the sounds that make up words can lead to changes in their meaning.
+For example, a child with a good level of phonological awareness would understand that if you change the letter "p" in the word "pat" to "s", the word becomes "sat".</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="236">
+        <prevpageid>234</prevpageid>
+        <nextpageid>235</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410099726</timecreated>
+        <timemodified>1412273711</timemodified>
+        <title>Moving on</title>
+        <contents>&lt;p&gt;You've had a brief introduction to dyslexia and now we're going to move on to explore in more detail how you can support students with this condition. However, if you wish you can go back and try the questions from the video or text information first.&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Nlyl%20reading%20man%20with%20glasses.svg.png" width="250" height="353" /&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="445">
+            <jumpto>235</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099726</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'm done with the questions. Continue with the lesson.</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="446">
+            <jumpto>234</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099726</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'd like to try the questions on the text</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="447">
+            <jumpto>237</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410099726</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>I'd like to try the questions on the video</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="237">
+        <prevpageid>235</prevpageid>
+        <nextpageid>232</nextpageid>
+        <qtype>3</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1410100880</timecreated>
+        <timemodified>1410101372</timemodified>
+        <title>Movie 1</title>
+        <contents>&lt;p&gt;Dr Ian Biggs of Bristol university thinks dyslexics are held back because...&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="448">
+            <jumpto>232</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410100880</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>they think in a different way</answer_text>
+            <response>Prof Briggs thinks they do, and that has a bearing on their creativity, but he doesn't think it's that which holds them back</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="449">
+            <jumpto>232</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410100880</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>they have lost their confidence and self respect</answer_text>
+            <response>Correct - and he puts this down to schooling, something we in the education system should take steps to rectify.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="450">
+            <jumpto>232</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410100880</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>they are not diagnosed early enough</answer_text>
+            <response>Possibly, but that is not the point he is making here.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="235">
+        <prevpageid>236</prevpageid>
+        <nextpageid>237</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410098400</timecreated>
+        <timemodified>1412273972</timemodified>
+        <title>So who has dyslexia?</title>
+        <contents>&lt;p&gt;The prevalence of dyslexia is unknown; with estimations varying greatly between 1% to 33% of the population. In the UK, it's thought that one in ten people has dyslexia. Internationally, there are differing definitions of dyslexia, but despite the significant differences between the writing systems, Italian, German and English speaking populations suffer similarly from dyslexia.&lt;sup id="cite_ref-90" class="reference"&gt;&lt;a href="http://en.wikipedia.org/wiki/Dyslexia#cite_note-90"&gt;&lt;/a&gt;&lt;/sup&gt; Dyslexia is not limited to difficulty in converting letters into sounds, but Chinese dyslexics have difficulty in extracting shapes of &lt;span class="nolink"&gt;Chinese characters i&lt;/span&gt;nto meanings. (&lt;a href="http://en.wikipedia.org/wiki/Dyslexia#Genetics"&gt;wikipedia&lt;/a&gt;)&lt;sup id="cite_ref-91" class="reference"&gt;&lt;a href="http://en.wikipedia.org/wiki/Dyslexia#cite_note-91"&gt;&lt;/a&gt;&lt;br /&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The exact cause of dyslexia is unknown, but it's generally accepted to be passed on through families.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;However, when dealing with children with dyslexia it's vital to emphasise that the condition doesn't have to hold them back: Einstein, Thomas Edison, RIchard Branson, Orlando Bloom, Darcy Bussell, Tom Cruise, Bill Gates and Steve Jobs, Keira Knightley and &lt;a href="http://www.bdadyslexia.org.uk/about-dyslexia/famous-dyslexics.html"&gt;oh so many more&lt;/a&gt; have overcome the obstacle and gone on to great things. Your students can too:-) Here's a good video by the British Dyslexia association:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://youtu.be/l_qGJ9svUbM"&gt;http://youtu.be/l_qGJ9svUbM&lt;/a&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="435">
+            <jumpto>238</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410098400</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="436">
+            <jumpto>-40</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410098400</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Back to previous</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="232">
+        <prevpageid>237</prevpageid>
+        <nextpageid>238</nextpageid>
+        <qtype>2</qtype>
+        <qoption>0</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1410101250</timecreated>
+        <timemodified>0</timemodified>
+        <title>Movie 2</title>
+        <contents>&lt;p&gt;Psychologist Ana Dangerfield says she has had parents "break down and cry" when they learn their child is dyslexic. True or false?&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="451">
+            <jumpto>236</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410101250</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>False</answer_text>
+            <response>Correct - the parents are actually breaking down with relief that their child won't have to go through the trauma that they, a dyslexic parent, had to go through many years earlier.</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="452">
+            <jumpto>236</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410101250</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>True</answer_text>
+            <response>Maybe they did, but that is not actually the point she is making. She is being more positive - go back and watch the video again, around 28 minutes :)</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="239">
+        <prevpageid>238</prevpageid>
+        <nextpageid>240</nextpageid>
+        <qtype>3</qtype>
+        <qoption>1</qoption>
+        <layout>0</layout>
+        <display>0</display>
+        <timecreated>1410105861</timecreated>
+        <timemodified>1410106566</timemodified>
+        <title>Identifying dyslexia</title>
+        <contents>&lt;p&gt;Tom's mum's friend suggests Tom might have dyslexia and thinks he should be tested. From the list below, select the clues that pointed her to this way of thinking.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="454">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom dreads going to school</answer_text>
+            <response/>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="455">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom's behaviour veers widely from hyperactive to very lethargic</answer_text>
+            <response>Not necessarily a trait of dyslexia</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="456">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom has a craving for sugary foods and drinks, particularly early afternoon</answer_text>
+            <response/>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="457">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom muddles up page numbers in his text book</answer_text>
+            <response/>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="458">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom spends an inordinate amount of time on homework</answer_text>
+            <response/>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="459">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom has a very short attention span</answer_text>
+            <response/>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="460">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>1</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom hates reading out loud</answer_text>
+            <response/>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="461">
+            <jumpto>240</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410105861</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Tom struggles in PE as he has no co-ordination and is clumsy</answer_text>
+            <response>Not a sign of dyslexia but could be dyspraxia - google it!</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="240">
+        <prevpageid>239</prevpageid>
+        <nextpageid>241</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410106491</timecreated>
+        <timemodified>1411221822</timemodified>
+        <title>How can we help?</title>
+        <contents>&lt;p&gt;So a student is diagnosed dyslexic. It's a relief and it's the start of the path to progress. In the video you just watched, psychologist Si Collyjist* suggests we should not label dyslexia as a learning ability.  Neil Mackay in &lt;em&gt;Dyslexia: Successful Inclusion in the Secondary School (BDA)&lt;/em&gt; says this:&lt;/p&gt;
+&lt;blockquote&gt;If a child does not learn in the way in which we teach then we must teach him in the way in which he learns. Let dyslexia be looked at from a different angle, not as a learning disability but a different learning ability.&lt;/blockquote&gt;
+&lt;p&gt;What can we do on a practical level to support our dyslexic students?&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Si Collyjist*&lt;/em&gt; Get it? A dyslexic wouldn't.&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="462">
+            <jumpto>241</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410106491</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Next</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="241">
+        <prevpageid>240</prevpageid>
+        <nextpageid>242</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410107411</timecreated>
+        <timemodified>0</timemodified>
+        <title>Empathy</title>
+        <contents>&lt;p&gt;A really useful exercise done in some dyslexia training sessions is to simulate the experience of a dyslexic reading. Do the exercise in this video in real time - and see how  you feel!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=zEG-QChd_aQ"&gt;https://www.youtube.com/watch?v=zEG-QChd_aQ&lt;/a&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="463">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410107411</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>That was scary! What's next?</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="242">
+        <prevpageid>241</prevpageid>
+        <nextpageid>243</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410108120</timecreated>
+        <timemodified>0</timemodified>
+        <title>Strategies (1)</title>
+        <contents>&lt;p&gt;There are many techniques to help students learn spellings. One example here is for young children combining phonics with images and colour. (Bear in mind if a child is colour blind this might not be so helpful)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=-CpZAH6elIc"&gt;https://www.youtube.com/watch?v=-CpZAH6elIc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="464">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410108120</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>What's that about colour and graphics?</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="243">
+        <prevpageid>242</prevpageid>
+        <nextpageid>244</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410108599</timecreated>
+        <timemodified>0</timemodified>
+        <title>Strategies (2)</title>
+        <contents>&lt;p&gt;In this &lt;a href="http://www.theguardian.com/teacher-network/teacher-blog/2013/sep/09/supporting-students-with-dyslexia-teachers-tips-pupils"&gt;article from the UK GuardianTeacher network&lt;/a&gt;, David Imrie shares tips on how to present work for dyslexic students.&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/Older%20Scrabble%20Dutch%20edition%20letter%20overview.jpg" width="400" height="300" alt="scrabble" /&gt;&lt;/p&gt;
+&lt;p&gt;Amongst his suggestions are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Layout: ensure worksheets only contain the necessary information and no extraneous detail which would overburden a student struggling to take it all in&lt;/li&gt;
+&lt;li&gt;Illustrations - where possible include graphics with text so students can visualise without having to understand every word&lt;/li&gt;
+&lt;li&gt;Fonts and background colours  -some are more easily viewed by dyslexic students than others.  Teachers can download free specialist fonts, such as &lt;a href="http://opendyslexic.org/"&gt;OpenDyslexic&lt;/a&gt;, which are free and can run on Microsoft software. Students who find characters invert or "swim" benefit from this font. Blue and yellow go well together, or a green background, or glasses with a particular filter or tint. More on &lt;a href="http://www.bdadyslexia.org.uk/about-dyslexia/further-information/eyes-and-dyslexia.html"&gt;visual stress from the BDA here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="465">
+            <jumpto>-1</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410108599</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Anything else?</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+      <page id="244">
+        <prevpageid>243</prevpageid>
+        <nextpageid>0</nextpageid>
+        <qtype>20</qtype>
+        <qoption>0</qoption>
+        <layout>1</layout>
+        <display>1</display>
+        <timecreated>1410109522</timecreated>
+        <timemodified>0</timemodified>
+        <title>Further reading</title>
+        <contents>&lt;p&gt;The internet is a great source of information on dyslexia but there are also many publications out there. This page presents a selection to get you started. This is the last page of our lesson. You can choose either to go back to the beginning and check through everything again or you can choose to end the lesson and move on to a revision quiz.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Books:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://books.google.co.uk/books/about/How_to_detect_and_manage_dyslexia.html?id=yNsybi_znAkC&amp;amp;redir_esc=y"&gt;How to Detect and Manage Dyslexia&lt;/a&gt;  -Phiomena Ott&lt;/li&gt;
+&lt;li&gt;The &lt;a href="http://books.google.co.uk/books?id=jSwtd_L8dkYC&amp;amp;q="&gt;Dyslexic Advantage - Unlocking the Hidden Potential of the Dyslexic brain&lt;/a&gt; - B and F Eide&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://books.google.co.uk/books?id=TneDZ4bcs0QC"&gt;Teaching Children with dyslexia  &lt;/a&gt;-Philomena Ott&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Useful websites:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;a href="http://www.bdadyslexia.org.uk/"&gt;British Dyslexia Association &lt;/a&gt; website, quoted significantly in this lesson.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nessy.com/"&gt;Nessy &lt;/a&gt;- a helpful website for young children with dyslexia&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.dyslexic.org.uk/"&gt;Dyslexia Research Trust &lt;/a&gt;- an Oxford University based charity&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.equality.leeds.ac.uk/disabled-students/teaching-and-supporting-students-with-dyslexia-or-other-specific-learning-difficulty/"&gt;Teaching &amp;amp; Supporting students in universities &lt;/a&gt;- information from Leeds university&lt;/li&gt;
+&lt;/ol&gt;</contents>
+        <contentsformat>1</contentsformat>
+        <answers>
+          <answer id="466">
+            <jumpto>230</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410109522</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>Go back and review this lesson</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+          <answer id="467">
+            <jumpto>-9</jumpto>
+            <grade>0</grade>
+            <score>0</score>
+            <flags>0</flags>
+            <timecreated>1410109522</timecreated>
+            <timemodified>0</timemodified>
+            <answer_text>End the lesson thanks</answer_text>
+            <response>$@NULL@$</response>
+            <answerformat>0</answerformat>
+            <responseformat>0</responseformat>
+            <attempts>
+            </attempts>
+          </answer>
+        </answers>
+        <branches>
+        </branches>
+      </page>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

@@ -33,7 +33,8 @@ unpack_targzip () {
     echo "untargzip the file: $1 "
     if [ -e "$1" ]; then
         if [ -e "${TMP_PREFIX}$1" ]; then rm -rf "${TMP_PREFIX}$1"; fi
-        tar -C "${TMP_PREFIX}$1 -xzvf "$1""
+        mkdir "${TMP_PREFIX}$1"
+        tar -C "${TMP_PREFIX}$1" -xzvf "$1"
     else
         # abort the commit if this isn't an excel file somehow
         echo "$1 is not an Tar/Gzip file. this is a bug."
