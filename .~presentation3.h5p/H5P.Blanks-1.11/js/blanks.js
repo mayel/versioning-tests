@@ -9,6 +9,10 @@ H5P.Blanks = (function ($, Question) {
   var STATE_SHOWING_SOLUTION = 'showing-solution';
   var STATE_FINISHED = 'finished';
 
+  const XAPI_ALTERNATIVE_EXTENSION = 'https://h5p.org/x-api/alternatives';
+  const XAPI_CASE_SENSITIVITY = 'https://h5p.org/x-api/case-sensitivity';
+  const XAPI_REPORTING_VERSION_EXTENSION = 'https://h5p.org/x-api/h5p-reporting-version';
+
   /**
    * @typedef {Object} Params
    *  Parameters/configuration object for Blanks
@@ -625,39 +629,35 @@ H5P.Blanks = (function ($, Question) {
     };
     definition.type = 'http://adlnet.gov/expapi/activities/cmi.interaction';
     definition.interactionType = 'fill-in';
-    definition.correctResponsesPattern = ['{case_matters=' + this.params.behaviour.caseSensitive + '}'];
-    var firstCorrectResponse = true;
+
+    const clozeSolutions = [];
+    let crp = '';
     // xAPI forces us to create solution patterns for all possible solution combinations
     for (var i = 0; i < this.params.questions.length; i++) {
-      var question = this.handleBlanks(this.params.questions[i], function(solution) {
-        // Store new patterns for each extra alternative answer
-        var newPatterns = [];
-        for (var j = 0; j < definition.correctResponsesPattern.length; j++) {
-          if (!firstCorrectResponse) {
-            definition.correctResponsesPattern[j] += '[,]';
-          }
-          var prefix = definition.correctResponsesPattern[j];
-          for (var k = 0; k < solution.solutions.length; k++) {
-            if (k === 0) {
-              // This is the first possible answr, just add it to the pattern
-              definition.correctResponsesPattern[j] += solution.solutions[k];
-            }
-            else {
-              // This is an alternative possible answer, we need to create a new permutation
-              newPatterns.push(prefix + solution.solutions[k]);
-            }
-          }
-        }
-        // Add any new permutations to the list of response patterns
-        definition.correctResponsesPattern = definition.correctResponsesPattern.concat(newPatterns);
+      var question = this.handleBlanks(this.params.questions[i], function (solution) {
+        // Collect all solution combinations for the H5P Alternative extension
+        clozeSolutions.push(solution.solutions);
 
-        firstCorrectResponse = false;
+        // Create a basic response pattern out of the first alternative for each blanks field
+        crp += (!crp ? '' : '[,]') + solution.solutions[0];
 
         // We replace the solutions in the question with a "blank"
         return '__________';
       });
       definition.description['en-US'] += question;
     }
+
+    // Set the basic response pattern (not supporting multiple alternatives for blanks)
+    definition.correctResponsesPattern = [
+      '{case_matters=' + this.params.behaviour.caseSensitive + '}' + crp,
+    ];
+
+    // Add the H5P Alternative extension which provides all the combinations of different answers
+    // Reporting software will need to support this extension for alternatives to work.
+    definition.extensions = definition.extensions || {};
+    definition.extensions[XAPI_CASE_SENSITIVITY] = this.params.behaviour.caseSensitive;
+    definition.extensions[XAPI_ALTERNATIVE_EXTENSION] = clozeSolutions;
+
     return definition;
   };
 
@@ -666,7 +666,14 @@ H5P.Blanks = (function ($, Question) {
    */
   Blanks.prototype.addQuestionToXAPI = function(xAPIEvent) {
     var definition = xAPIEvent.getVerifiedStatementValue(['object', 'definition']);
-    $.extend(definition, this.getxAPIDefinition());
+    $.extend(true, definition, this.getxAPIDefinition());
+
+    // Set reporting module version if alternative extension is used
+    if (definition.extensions && definition.extensions[XAPI_ALTERNATIVE_EXTENSION]) {
+      const context = xAPIEvent.getVerifiedStatementValue(['context']);
+      context.extensions = context.extensions || {};
+      context.extensions[XAPI_REPORTING_VERSION_EXTENSION] = '1.1.0';
+    }
   };
 
   /**
