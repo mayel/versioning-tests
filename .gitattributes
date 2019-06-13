@@ -1,6 +1,6 @@
 *.pdf diff=pdf
 *.zip diff=zip
-*.mbz diff=tarzip
+*.mbz diff=targzip
 *.h5p diff=zip
 *.epub diff=zip
 *.pptx diff=zip
