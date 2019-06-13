@@ -27,7 +27,7 @@ repack_zip () {
 repack_targzip () {
     echo "re-targzip the directory" 
     rm "$1"
-    cd "${TMP_PREFIX}$1" && tar -czf "../$1" -r *
+    cd "${TMP_PREFIX}$1" && tar -czf "../$1" *
     cd ..
 }
 
