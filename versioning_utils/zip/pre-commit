@@ -8,6 +8,7 @@
 
 # -- config -- #
 EXT=$1
+ARCHIVE_TYPE=$2
 TMP_PREFIX='.~' # prefix XML directory--should NOT conflict with 
                    # anything in your repo
 
@@ -28,6 +29,17 @@ unpack_zip () {
     fi
 }
 
+unpack_targzip () {
+    echo "untargzip the file: $1 "
+    if [ -e "$1" ]; then
+        if [ -e "${TMP_PREFIX}$1" ]; then rm -rf "${TMP_PREFIX}$1"; fi
+        tar -xzf "$1" -d "${TMP_PREFIX}$1"
+    else
+        # abort the commit if this isn't an excel file somehow
+        echo "$1 is not an Tar/Gzip file. this is a bug."
+        exit 3
+    fi
+}
 
 replace_with_placeholder () {
 	echo "create a placeholder text file for the ZIP file, which uniquely identifies it and prevents losing work on a checkout"
@@ -58,7 +70,13 @@ for i in $(git diff --name-only --cached -- *.$EXT); do
     file=$(basename "$i")
     cd "$dir"
     echo -n "Unpack file $dir/$file "
-    unpack_zip "$file"
+    
+    if [ "$ARCHIVE_TYPE" -eq "targzip" ];then
+	    	unpack_targzip "$file"
+	   else
+						unpack_zip "$file"
+				fi
+				
     replace_with_placeholder "$file"
     echo -n "Commit placeholder file: "
     file "$file"

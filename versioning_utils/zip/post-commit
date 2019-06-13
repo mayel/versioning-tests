@@ -8,6 +8,7 @@
 
 # -- config -- #
 EXT=$1
+ARCHIVE_TYPE=$2
 TMP_PREFIX='.~' # prefix XML directory--should NOT conflict with 
                    # anything in your repo
 
@@ -17,23 +18,37 @@ echo
 echo "=== Post-commit ZIP processing for .$EXT files ===="
 
 repack_zip () {
-    # re-zip the XML directory 
+    echo "re-zip the directory"
     rm "$1"
     cd "${TMP_PREFIX}$1" && zip "../$1" -r *
+    cd ..
+}
+
+repack_targzip () {
+    echo "re-targzip the directory" 
+    rm "$1"
+    cd "${TMP_PREFIX}$1" && tar -czf "../$1" -r *
     cd ..
 }
 
 # make it easy to iterate over subdirectories
 shopt -s globstar
 
-# repack all the zipfiles
+echo "repack all the zipfiles"
 start_dir="$(pwd)"
 for i in **/${TMP_PREFIX}*.$EXT; do 
     dir=$(dirname "$i")
     base=$(basename "$i")
     file=${base:${#TMP_PREFIX}}
     cd "$dir"
-    repack_zip "$file"
+    
+    if [ "$ARCHIVE_TYPE" -eq "targzip" ];then
+	     repack_targzip "$file"
+	   else
+						repack_zip "$file"
+				fi
+				
+				
     cd "$start_dir"
 done
 
