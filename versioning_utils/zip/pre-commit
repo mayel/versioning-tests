@@ -17,7 +17,7 @@ echo
 echo "=== Pre-commit ZIP processing for .$EXT files ===="
 
 unpack_zip () {
-    # unzip the file 
+    echo "unzip the file: $1 "
     if [ -e "$1" ]; then
         if [ -e "${TMP_PREFIX}$1" ]; then rm -rf "${TMP_PREFIX}$1"; fi
         unzip "$1" -d "${TMP_PREFIX}$1"
@@ -28,19 +28,19 @@ unpack_zip () {
     fi
 }
 
-# create a placeholder text file for the ZIP file, which uniquely identifies
-# it and prevents losing work on a checkout
+
 replace_with_placeholder () {
-    sha1sum "$1" | tee "$1" > /dev/null # hack for overwriting without temp file
+	echo "create a placeholder text file for the ZIP file, which uniquely identifies it and prevents losing work on a checkout"
+	sha1sum "$1" | tee "$1" > /dev/null # hack for overwriting without temp file
 }
 
 
 reformat_xmls () {
-    # reformat the xml file to many lines
+    echo "reformat any xml files to many lines"
     find "$1" -name "*.xml" -type f -exec xmllint --output '{}' --format '{}' \;
 }
 
-# check that the swap file isn't there (if the ZIP has been staged)
+echo "check that the swap file isn't there (if the ZIP has been staged)"
 for i in $(git diff --name-only --cached -- *.$EXT); do 
     dir=$(dirname "$i")
     file=$(basename "$i")
@@ -50,11 +50,14 @@ for i in $(git diff --name-only --cached -- *.$EXT); do
     fi
 done
 
-# unpack all the zipfiles (if the ZIP has been staged)
+
+echo "unpack all the zipfiles (if the ZIP has been staged)"
+echo $(git diff --name-only --cached -- *.$EXT)
 for i in $(git diff --name-only --cached -- *.$EXT); do 
     dir=$(dirname "$i")
     file=$(basename "$i")
     cd "$dir"
+    echo -n "Unpack file $dir/$file "
     unpack_zip "$file"
     replace_with_placeholder "$file"
     echo -n "Commit placeholder file: "
