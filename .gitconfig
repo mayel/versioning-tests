@@ -1,0 +1,38 @@
+[diff]
+#   algorithm = patience
+    cachetextconv = false
+
+[diff "pdf"]
+    textconv = versioning_utils/pdf2text
+
+[diff "zip"]
+    textconv = unzip -c -a
+
+[diff "targzip"]
+   textconv = tar -xOzf
+
+[diff "xml"]
+   tool = diffxml
+
+[diff "json"]
+   textconv = python -m json.tool
+
+[diff "doc"]
+  textconv = catdoc
+
+[diff "xls"]
+  textconv = xls2csv
+
+[diff "ppt"]
+  textconv = catppt
+
+[diff "docx"]
+  textconv = versioning_utils/catdocx
+
+[diff "odt"]
+    textconv = odt2txt
+
+[diff "exif"]
+    textconv = exiftool
+
+
