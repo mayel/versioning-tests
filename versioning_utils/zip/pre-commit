@@ -15,7 +15,7 @@ TMP_PREFIX='.~' # prefix XML directory--should NOT conflict with
 # -- end config -- #
 
 echo
-echo "=== Pre-commit ZIP processing for .$EXT files ===="
+echo "=== Pre-commit ZIP processing for .$EXT $ARCHIVE_TYPE files ===="
 
 unpack_zip () {
     echo "unzip the file: $1 "
@@ -71,7 +71,7 @@ for i in $(git diff --name-only --cached -- *.$EXT); do
     cd "$dir"
     echo -n "Unpack file $dir/$file "
     
-    if [ "$ARCHIVE_TYPE" -eq "targzip" ];then
+    if [ $ARCHIVE_TYPE == "targzip" ];then
 	    	unpack_targzip "$file"
 	   else
 						unpack_zip "$file"

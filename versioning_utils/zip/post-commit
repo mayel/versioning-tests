@@ -42,7 +42,7 @@ for i in **/${TMP_PREFIX}*.$EXT; do
     file=${base:${#TMP_PREFIX}}
     cd "$dir"
     
-    if [ "$ARCHIVE_TYPE" -eq "targzip" ];then
+    if [ $ARCHIVE_TYPE == "targzip" ];then
 	     repack_targzip "$file"
 	   else
 						repack_zip "$file"
